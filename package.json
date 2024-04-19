@@ -1,0 +1,18 @@
+{
+  "name": "WebServer",
+  "version": "0.0.1",
+  "description": "Server to render HTML and serve JS app",
+  "main": "index.js",
+  "author": "Erwin Jimenez",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node index",
+    "nodemon": "nodemon index"
+  }
+}
